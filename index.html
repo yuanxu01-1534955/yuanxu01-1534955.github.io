@@ -5,6 +5,38 @@
     </head>
     <body>
         <h1>Hello World<h1>
-    </body>
+        <img src="https://environment.uw.edu/wp-content/themes/coenv-wordpress-theme/assets/img/logo-1200x1200.png" width="500" height="500">
+        <audio controls>
+                <source src="https://soundcloud.com/trippie-hippie-2/bust-down" type="audio/ogg">
+        </audio>   <iframe width="560" height="315" src="https://www.youtube.com/embed/eNk_6WLNvBU" frameborder="0" allowfullscreen></iframe>
+        <head>
+                <style>
+                  #map {
+                    height: 400px;
+                    width: 100%;
+                   }
+                </style>
+              </head>
+              <body>
+                <h3>My Google Maps Demo</h3>
+                <div id="map"></div>
+                <script>
+                  function initMap() {
+                    var uluru = {lat: 25.363, lng: 100.044};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                      zoom: 4,
+                      center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                      position: uluru,
+                      map: map
+                    });
+                  }
+                </script>
+                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP_pjvEdymGrxpYrwkzQnmYUI592SD7b4 &callback=initMap">
+                </script>
+              </body>
+             
 </html>
 
