@@ -1,0 +1,23 @@
+p{
+    color: #F1ACAC;
+    font-family: "Arial";
+}
+
+h1{
+    float: left;
+    color: #CC2424;
+    font-size: 60px;
+}
+
+h2{
+    color: #221B4D; 
+    font-size: 40px;
+}
+
+h1{
+    border-radius: 25px;
+    background: #09080f;
+    padding: 70px; 
+    width: 70px;
+    height: 70px;
+}
